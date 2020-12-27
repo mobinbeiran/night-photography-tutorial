@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App24.secondpage" Title="موبایل" BackgroundColor="#21201d">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="عکاسی با موبایل" BackgroundColor="Orange" TextColor="White" FontSize="Title" HorizontalTextAlignment="Center"
+                VerticalOptions="StartAndExpand"/>
+                <Image Source="mobilecam"
+       WidthRequest="{OnPlatform iOS=300, Android=200}"
+       HorizontalOptions="Center" Rotation="270"/>
+                <Label Text="قبل از شروع از داشتن تنظیمات دستی یا حرفه ای مطمئن شوید. در غیر این صورت برنامه manual camera را دانلود کنید. &#x0d;&#x0a; &#x0d;&#x0a; تنظیمات دستی دوربین موبایل های مختلف ممکن است شکل متفاوتی داشته باشند اما ساختار مشترکی دارند. &#x0d;&#x0a; &#x0d;&#x0a;
+                       اولین فاکتور مدت زمان باز ماندن شاتر دوربین است. هر چه این مدت بیشتر باشد نور بیشتری توسط دوربین جذب میشود در نتیجه عکس روشن تری بوجود می اید. این زمان معمولا بین سی ثانیه تا شش هزارم ثانیه است. برای عکسبرداری از محیط های تاریک یا اسمان شب باید سرعت شاتر کاهش یابد اما برای عکاسی از محیط های روشن سرعت های بالا پیشنهاد میشود. &#x0d;&#x0a; &#x0d;&#x0a;
+                       ایزو یا حساسیت دوربین به نور. هرچه رقم ایزو بالاتر باشد حساسیت دوربین بالاتر میرود و در نتیجه عکس روشن تر میشودو بالعکس. یکی از مشکلاته این گزینه نویزی شدن عکس در ایزو های بالا است. وقتی ایزو به بالای 1000 میرسد نویز در تصویر دیده میشود. برای عکاسی در نور کم یا اسمان شب از ایزو بالا و در نور کم ایزو پایین استفاده شود. این تنظیمات در گوشی موبایل بین 50تا 3200 است. &#x0d;&#x0a; &#x0d;&#x0a;
+                       برای عکاسی شب بدلیل ثابت بودن فاصله کانونی دوربین برای تنظیم نور به دو گزینه حساسیت دوربین و سرعت شاتر محدود میشویم. &#x0d;&#x0a; &#x0d;&#x0a;
+                       فوکوس دستی برای تنظیم نقطه تمرکز دوربین به صورت دستی است که کمترین درجه ان برای عکاسی از فواصل نزدیک و بالاترین حد ان یا نقطه بینهایت که مناسب عکاسی از اسمان شب است که منجلب به بوجود امدن عکسی واضح میشود. &#x0d;&#x0a; &#x0d;&#x0a;
+                       تعادل رنگ سفید که برای تنظیم رنگ در تصویر تعبیه شدهاست. &#x0d;&#x0a; &#x0d;&#x0a;
+                       فرمت راو یا خام که در بعضی از موبایل ها گزینه ذخیره عکس با فرمت خام وجود دارد که بعدا در فرایند ادیت عکس به بهترین شکل ادیت خواهد شد. &#x0d;&#x0a; &#x0d;&#x0a;"
+                    BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Label Text="عکاسی از اسمان شب با موبایل: برای این کار شما به یک سه پایه نیاز خواهید داشتزیرا کوچکترین لرزشی عکس را تار میکند. برای این مدل عکاسی با دست نمیتوان موبایل را نگه داشت 
+                       و ترجیحا محیط تاریک بدون الودگی نوری شهر را انتخاب کنید و سرعت شاتر را بین 30 تا 15 ثانیه و ایزو را بین 800 تا 3000 تنظیم کنید و فوکوس دستی را به بینهایت قفل کنید. قبل 
+                       از گرفتن عکس تایمر را روشن کنید تا از لرزش دوربین موبایل بر اثر لمس دکمه دوربین خودداری شود سپس دوربین موبایل را بر روی سه پایه روبه اسمان قرار دهید. &#x0d;&#x0a; &#x0d;&#x0a;"
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="nightsky"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="عکاسی شب در خیابان: برای اینکار به علت وجود نور در خیابان سرعت شاتر را بین 1 تا 4 ثانیه و ایزو را بین 100 تا 800 تنظیم کنید. &#x0d;&#x0a; &#x0d;&#x0a;"
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="nightcity"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="نقاشی با نور: در این حالت میتوان سرعت شاتر دوربین را تا حدی پایین اورد و با استفاده از چراغ در جلوی دوربین اشکال مختلف کشید که در عکس ثبت میشنود"
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="nightlightpaint"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

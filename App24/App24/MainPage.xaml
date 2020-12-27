@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App24.MainPage" Title="صفحه اصلی" BackgroundColor="#21201d">
+
+    <StackLayout>
+        <Label Text="به آموزش عکاسی شب خوش آمدید" BackgroundColor="Orange" TextColor="Snow" FontSize="Title" VerticalOptions="StartAndExpand" HorizontalOptions="Center" Padding="27, 10"/>
+        <Button Text="عکاسی شب با موبایل" BackgroundColor="DarkOrange" TextColor="White" BorderColor="OrangeRed" BorderWidth="1" CornerRadius="20" VerticalOptions="StartAndExpand" FontSize="Subtitle" Clicked="Button_Clicked"/>
+        <Button Text="ادیت عکس های شب" BackgroundColor="DarkOrange" TextColor="White" BorderColor="OrangeRed" BorderWidth="1" CornerRadius="20" VerticalOptions="StartAndExpand" FontSize="Subtitle" Clicked="Button_Clicked_3"/>
+        <Button Text="تماس با ما" BackgroundColor="DarkOrange" TextColor="White" BorderColor="OrangeRed" BorderWidth="1" CornerRadius="20" VerticalOptions="StartAndExpand" FontSize="Subtitle" Clicked="Button_Clicked_1"/>
+    </StackLayout>
+
+</ContentPage>

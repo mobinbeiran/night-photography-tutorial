@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App24.fourthpage" Title="ادیت" BackgroundColor="#21201d">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="ادیت" BackgroundColor="Orange" TextColor="White" FontSize="Title" HorizontalTextAlignment="Center"
+                VerticalOptions="StartAndExpand"/>
+                <Label Text="برای ادیت  تصاویر اسمان شب میتوان از برنامه lightroom استفاده کرد." 
+                   BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="lightroomm"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="برای ادیت تصاویر شب با بالا بردن گزینه exposure نور عکس را مقداری بالا میبریم &#x0d;&#x0a; &#x0d;&#x0a;
+                       و با بالا بردن گزینه کنتراست قسمت های تاریک را از روشن متمایز میکنیم. &#x0d;&#x0a; &#x0d;&#x0a;
+                       سپس با ور رفتن با گزینه هایی مانند سایه سفیدی و سیاهی عکس را به دلخواه ادیت میکنیم."
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="lightroom"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="با بالا بردن dehaze and clarity عکس را زنده تر میکنیم. &#x0d;&#x0a; &#x0d;&#x0a;
+                       و با بالا بردن vignette نویز هایه گوشه های تصویر را تا حدودی کاهش میدهیم. &#x0d;&#x0a; &#x0d;&#x0a; "
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="lightroommm"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="با استفاده از noise reduction and color noise reduction میتوان نویز های عکس را تا حد قابل قبولی کاهش داد. &#x0d;&#x0a; &#x0d;&#x0a; "
+                      BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="lightroommmm"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="و در اخر اگر عکس اسموت یا نرم شد و جزیات عکس تا حدی محو شدند میتوان با گزینه sharpening تا حدی انرا جبران کرد. &#x0d;&#x0a; &#x0d;&#x0a; "
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+                <Image Source="nightskyunedited"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Image Source="nightsky"
+       WidthRequest="{OnPlatform iOS=300, Android=350}"
+       HorizontalOptions="Center"/>
+                <Label Text="و در اخر عکس از تصویر بالایی به تصویر پایین تبدیل میشود."
+                       BackgroundColor="DarkOrange" TextColor="#242322" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start" 
+                   Padding="10" FontSize="Subtitle"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
